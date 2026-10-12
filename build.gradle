@@ -1,0 +1,4 @@
+allprojects {
+    group = 'dev.arteshow.safe2play'
+    version = '1.0.0'
+}

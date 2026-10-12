@@ -1,0 +1,14 @@
+.gradle/
+**/build/
+out/
+.idea/
+.vscode/
+*.iml
+
+# Local databases and secrets
+*.db
+*.sqlite
+*.sqlite3
+*.key
+*.pem
+.env

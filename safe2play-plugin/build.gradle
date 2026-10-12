@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+base {
+    archivesName = 'safe2play-plugin'
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:26.1.2.build.60-stable'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+    options.encoding = 'UTF-8'
+}

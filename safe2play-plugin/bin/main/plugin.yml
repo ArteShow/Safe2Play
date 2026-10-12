@@ -1,0 +1,5 @@
+name: Safe2Play
+version: 1.0.0
+main: dev.arteshow.safe2play.plugin.Safe2PlayPlugin
+author: ArteShow
+description: Secure player authentication for Minecraft servers.
