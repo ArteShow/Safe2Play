@@ -1,5 +1,17 @@
 name: Safe2Play
 version: 1.0.0
 main: dev.arteshow.safe2play.plugin.Safe2PlayPlugin
+api-version: '26.1'
 author: ArteShow
-description: Secure player authentication for Minecraft servers.
+description: Cryptographic player authentication for Minecraft servers.
+
+commands:
+  safe2play:
+    description: Manage Safe2Play registrations.
+    usage: /safe2play
+    permission: safe2play.admin
+
+permissions:
+  safe2play.admin:
+    description: Manage Safe2Play registrations.
+    default: op
